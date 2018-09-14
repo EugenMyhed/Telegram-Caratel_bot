@@ -1,0 +1,26 @@
+{
+  "name": "caratel_bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./src/index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EugenMyhed/Telegram-Caratel_bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EugenMyhed/Telegram-Caratel_bot/issues"
+  },
+  "homepage": "https://github.com/EugenMyhed/Telegram-Caratel_bot#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "dependencies": {
+    "mongoose": "^5.2.14",
+    "telegraf": "^3.23.1"
+  }
+}
